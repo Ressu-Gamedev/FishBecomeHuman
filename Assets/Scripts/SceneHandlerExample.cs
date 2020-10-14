@@ -34,7 +34,7 @@ public class SceneHandlerExample : MonoBehaviour
         {
 
             Time.timeScale = 1f;
-            curState.text = "Play";
+            curState.text = "";
             //isPaused = false;
         }
         isPaused = !isPaused;
