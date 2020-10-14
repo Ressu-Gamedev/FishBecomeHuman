@@ -1972,7 +1972,7 @@ Transform:
   m_GameObject: {fileID: 1726722597}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.6, y: 0.22, z: 0}
-  m_LocalScale: {x: 2.55708, y: 1.7313561, z: 2.1309}
+  m_LocalScale: {x: 1.9054083, y: 1.2901201, z: 1.5878401}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -1997,6 +1997,7 @@ MonoBehaviour:
   scaleY: 0
   lastDirection: 1
   lastScale: 1
+  achievedMax: 0
 --- !u!95 &1726722603
 Animator:
   serializedVersion: 3

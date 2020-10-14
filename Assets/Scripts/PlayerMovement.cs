@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public float scaleY;
     public int lastDirection = 1;
     public float lastScale = 1f;
+    public int achievedMax = 0;
 
 
     // Start is called before the first frame update
@@ -30,9 +31,19 @@ public class PlayerMovement : MonoBehaviour
     {
         mHorizontal = Input.GetAxis("Horizontal");
         mVertical = Input.GetAxis("Vertical");
-        
+
         if(mHorizontal != 0f && Math.Sign(mHorizontal) != lastDirection && Math.Abs(mHorizontal) > lastScale){
             transform.localScale = new Vector2(mHorizontal * scaleX, scaleY);
+            if(Math.Abs(mHorizontal) == 1f){
+                achievedMax = 1;
+            }else{
+                achievedMax = -1;
+            }
+        }
+        if(mHorizontal == 0f && achievedMax == -1){
+            transform.localScale = new Vector2(-lastDirection * scaleX, scaleY);
+            achievedMax = 0;
+            lastDirection = -lastDirection;
         }
         if(Math.Abs(mHorizontal) == 1f){
             lastDirection = Math.Sign(mHorizontal);
