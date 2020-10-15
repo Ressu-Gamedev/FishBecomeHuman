@@ -15,6 +15,11 @@ public class PlayerMovement : MonoBehaviour
     public int lastDirection = 1;
     public float lastScale = 1f;
     public int achievedMax = 0;
+    public AudioSource theBeans;
+    public AudioClip[] allMyHomiesEatBeans;
+    public AudioClip[] allMyHomiesEatCheese;
+    public AudioClip[] allMyHomiesEatSoy;
+    public float dTime = 0f;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
         mHorizontal = Input.GetAxis("Horizontal");
         mVertical = Input.GetAxis("Vertical");
 
+        // Hacky code to flip the player when they're facing left/right
         if(mHorizontal != 0f && Math.Sign(mHorizontal) != lastDirection && Math.Abs(mHorizontal) > lastScale){
             transform.localScale = new Vector2(mHorizontal * scaleX, scaleY);
             if(Math.Abs(mHorizontal) == 1f){
@@ -49,6 +55,16 @@ public class PlayerMovement : MonoBehaviour
         }
         
         lastScale = Math.Abs(mHorizontal);
+
+        // Sound effect bs handling smile
+        dTime += Time.deltaTime;
+        if((mHorizontal != 0f || mVertical != 0f) && dTime > 2f){
+            AudioClip singularBean = allMyHomiesEatBeans[UnityEngine.Random.Range(0, allMyHomiesEatBeans.Length)];
+            AudioClip singularBean2 = allMyHomiesEatSoy[UnityEngine.Random.Range(0, allMyHomiesEatSoy.Length)];
+            theBeans.PlayOneShot(singularBean, 1.5f);
+            theBeans.PlayOneShot(singularBean2, 0.6f);
+            dTime = 0f;
+        }
     }
 
     // All physics operations

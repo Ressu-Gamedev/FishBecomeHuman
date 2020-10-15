@@ -7,11 +7,16 @@ using TMPro;
 public class Boss1 : Boss
 {
     public GameObject player;
+    public GameObject enemy;
     public GameObject cam1;
     public GameObject cam2;
+    public SpriteRenderer playerRender;
+    public Sprite newSprite;
     public int clickCount = 100;
     public string task = " TO GO";
     public TextMeshProUGUI tasktext;
+    public AudioSource audioS;
+    public AudioClip newClip;
 
     void OnMouseOver(){
         if (Input.GetMouseButtonDown(0)){
@@ -22,6 +27,11 @@ public class Boss1 : Boss
                 cam1.SetActive(false);
                 cam2.SetActive(true);
                 player.transform.position = newLoc;
+                playerRender.sprite = newSprite;
+                player.GetComponent<Animator>().SetInteger("State", 1);
+                enemy.gameObject.transform.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+                audioS.clip = newClip;
+                audioS.Play();
             }
         }
     }
