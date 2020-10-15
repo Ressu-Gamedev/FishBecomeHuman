@@ -16,7 +16,6 @@ public class PlayerMovement : MonoBehaviour
     public float lastScale = 1f;
     public int achievedMax = 0;
 
-
     // Start is called before the first frame update
     void Start()
     {

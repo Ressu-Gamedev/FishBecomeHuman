@@ -1,31 +1,46 @@
 fileFormatVersion: 2
-guid: a127b4ca828e5ef4e85bb6fd9e473972
+guid: ee3b4d737528fa14787f91f833ad5c9f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5847857956526643369
-    second: fleshfish_0
+      213: -2213535922500427349
+    second: groundpalette_0
   - first:
-      213: -88755817473056037
-    second: fleshfish_1
+      213: -7983115284962679239
+    second: groundpalette_1
   - first:
-      213: -8398738404457923578
-    second: fleshfish_2
+      213: -7901040144777155902
+    second: groundpalette_2
   - first:
-      213: -5531686824547958122
-    second: fleshfish_3
+      213: 9180564115453342578
+    second: groundpalette_3
   - first:
-      213: -4398055921390942947
-    second: fleshfish_4
+      213: -2888320908002891865
+    second: groundpalette_4
   - first:
-      213: 8512163379787495037
-    second: fleshfish_5
+      213: 4968598066404790072
+    second: groundpalette_5
   - first:
-      213: -5815941775400615977
-    second: fleshfish_6
+      213: 1357817588605119330
+    second: groundpalette_6
   - first:
-      213: 842535747524519478
-    second: fleshfish_7
+      213: 3760164950355510056
+    second: groundpalette_7
+  - first:
+      213: 7563431271113754966
+    second: groundpalette_8
+  - first:
+      213: -211938808802300072
+    second: groundpalette_9
+  - first:
+      213: -1613087957620709835
+    second: groundpalette_10
+  - first:
+      213: 3757293798101396435
+    second: groundpalette_11
+  - first:
+      213: 5936905106233132097
+    second: groundpalette_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -137,13 +152,118 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fleshfish_0
+      name: groundpalette_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1abc96ec0f741e0800000000000000
+      internalID: -2213535922500427349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundpalette_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936eec6d1f6463190800000000000000
+      internalID: -7983115284962679239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundpalette_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cae47e89ddd95290800000000000000
+      internalID: -7901040144777155902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundpalette_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2737b4b1c6ae76f70800000000000000
+      internalID: 9180564115453342578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundpalette_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a76729ef6f9ae7d0800000000000000
+      internalID: -2888320908002891865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundpalette_5
       rect:
         serializedVersion: 2
         x: 0
         y: 64
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,41 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 757a94cfb2c38dea0800000000000000
-      internalID: -5847857956526643369
+      spriteID: 83f00cbdd9104f440800000000000000
+      internalID: 4968598066404790072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fleshfish_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd2e4c3ed0da4cef0800000000000000
-      internalID: -88755817473056037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fleshfish_2
+      name: groundpalette_6
       rect:
         serializedVersion: 2
         x: 64
         y: 64
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +292,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60cbad86befa17b80800000000000000
-      internalID: -8398738404457923578
+      spriteID: 26be59e17efe7d210800000000000000
+      internalID: 1357817588605119330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fleshfish_3
+      name: groundpalette_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82380d2a91ace2430800000000000000
+      internalID: 3760164950355510056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundpalette_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65901d51ba4b6f860800000000000000
+      internalID: 7563431271113754966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundpalette_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f283bb6ca0f0df0800000000000000
+      internalID: -211938808802300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: groundpalette_10
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 32
-        height: 32
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,41 +376,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6924c1624208b33b0800000000000000
-      internalID: -5531686824547958122
+      spriteID: 536ae8e8c092d99e0800000000000000
+      internalID: -1613087957620709835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fleshfish_4
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d15803ff077f6f2c0800000000000000
-      internalID: -4398055921390942947
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fleshfish_5
+      name: groundpalette_11
       rect:
         serializedVersion: 2
         x: 64
-        y: 32
-        width: 32
-        height: 32
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,20 +397,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d76725a9e77412670800000000000000
-      internalID: 8512163379787495037
+      spriteID: 3dbac986dc6942430800000000000000
+      internalID: 3757293798101396435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fleshfish_6
+      name: groundpalette_12
       rect:
         serializedVersion: 2
-        x: 0
+        x: 128
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,29 +418,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7df34eaf4cf994fa0800000000000000
-      internalID: -5815941775400615977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fleshfish_7
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63664c56cc941bb00800000000000000
-      internalID: 842535747524519478
+      spriteID: 1448a323dbf146250800000000000000
+      internalID: 5936905106233132097
       vertices: []
       indices: 
       edges: []

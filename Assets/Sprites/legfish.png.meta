@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: a127b4ca828e5ef4e85bb6fd9e473972
+guid: 52412ff2db4b2b344a1f9dc470617bb8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5847857956526643369
-    second: fleshfish_0
+      213: -2616805337881281306
+    second: legfish_0
   - first:
-      213: -88755817473056037
-    second: fleshfish_1
+      213: 6913490159669851232
+    second: legfish_1
   - first:
-      213: -8398738404457923578
-    second: fleshfish_2
+      213: 6262003654402824313
+    second: legfish_2
   - first:
-      213: -5531686824547958122
-    second: fleshfish_3
+      213: -8188372485313834876
+    second: legfish_3
   - first:
-      213: -4398055921390942947
-    second: fleshfish_4
+      213: 3261369295259348825
+    second: legfish_4
   - first:
-      213: 8512163379787495037
-    second: fleshfish_5
+      213: -437574653385432483
+    second: legfish_5
   - first:
-      213: -5815941775400615977
-    second: fleshfish_6
+      213: -7527211898368593976
+    second: legfish_6
   - first:
-      213: 842535747524519478
-    second: fleshfish_7
+      213: 1532244472938464080
+    second: legfish_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -137,13 +137,76 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fleshfish_0
+      name: legfish_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec7d3dd86d3fabd0800000000000000
+      internalID: -2616805337881281306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legfish_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064b745cba6a1ff50800000000000000
+      internalID: 6913490159669851232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legfish_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978d0ea652b17e650800000000000000
+      internalID: 6262003654402824313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legfish_3
       rect:
         serializedVersion: 2
         x: 0
         y: 64
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,41 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 757a94cfb2c38dea0800000000000000
-      internalID: -5847857956526643369
+      spriteID: 4805944cb9e0d5e80800000000000000
+      internalID: -8188372485313834876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fleshfish_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd2e4c3ed0da4cef0800000000000000
-      internalID: -88755817473056037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fleshfish_2
+      name: legfish_4
       rect:
         serializedVersion: 2
         x: 64
         y: 64
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +235,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60cbad86befa17b80800000000000000
-      internalID: -8398738404457923578
+      spriteID: 95fac453816b24d20800000000000000
+      internalID: 3261369295259348825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fleshfish_3
+      name: legfish_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d522f3ecb2c6de9f0800000000000000
+      internalID: -437574653385432483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legfish_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 32
-        height: 32
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,62 +277,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6924c1624208b33b0800000000000000
-      internalID: -5531686824547958122
+      spriteID: 8cf65a8c8a8f98790800000000000000
+      internalID: -7527211898368593976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fleshfish_4
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d15803ff077f6f2c0800000000000000
-      internalID: -4398055921390942947
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fleshfish_5
+      name: legfish_7
       rect:
         serializedVersion: 2
         x: 64
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d76725a9e77412670800000000000000
-      internalID: 8512163379787495037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fleshfish_6
-      rect:
-        serializedVersion: 2
-        x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,29 +298,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7df34eaf4cf994fa0800000000000000
-      internalID: -5815941775400615977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fleshfish_7
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63664c56cc941bb00800000000000000
-      internalID: 842535747524519478
+      spriteID: 0538d8eda30a34510800000000000000
+      internalID: 1532244472938464080
       vertices: []
       indices: 
       edges: []
