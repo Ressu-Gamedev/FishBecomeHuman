@@ -5,6 +5,7 @@ using UnityEngine;
 public class Boss : MonoBehaviour
 {
     public Vector2 newLoc;
+    public float timeLeft = -10f;
     // Start is called before the first frame update
     void Start()
     {

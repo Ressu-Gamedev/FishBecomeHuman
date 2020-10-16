@@ -12,7 +12,6 @@ public class Boss3 : Boss
     public GameObject cam2;
     public SpriteRenderer playerRender;
     public Sprite newSprite;
-    public float timeLeft = 60;
     public string task = " TO GO";
     public TextMeshProUGUI tasktext;
     public AudioSource audioS;
@@ -24,7 +23,9 @@ public class Boss3 : Boss
     void Update(){
         mHorizontal = Input.GetAxis("Horizontal");
         mVertical = Input.GetAxis("Vertical");
-
+        if(timeLeft < -9f){
+            return;
+        }
         if(mHorizontal == 0 && mVertical == 0){
             timeLeft -= Time.deltaTime;
         }
@@ -37,6 +38,7 @@ public class Boss3 : Boss
                 enemy.gameObject.transform.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
                 audioS.clip = newClip;
                 audioS.Play();
+                Destroy(this);
         }
 
         tasktext.text = timeLeft.ToString("0.00") + task;

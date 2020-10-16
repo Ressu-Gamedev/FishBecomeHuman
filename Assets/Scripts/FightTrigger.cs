@@ -17,6 +17,7 @@ public class FightTrigger : MonoBehaviour
     public SpriteRenderer sRender;
     public AudioSource audioS;
     public AudioClip newClip;
+    public TextFlash flashScript;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -30,6 +31,7 @@ public class FightTrigger : MonoBehaviour
             sRender.sprite = newSprite;
             audioS.clip = newClip;
             audioS.Play();
+            flashScript.elapsedTime = 0f;
             Destroy(this);
         }
     }

@@ -17,6 +17,7 @@ public class FightTrigger3 : MonoBehaviour
     public SpriteRenderer sRender;
     public AudioSource audioS;
     public AudioClip newClip;
+    public TextFlash3 flashScript;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -26,10 +27,12 @@ public class FightTrigger3 : MonoBehaviour
             cam1.SetActive(false);
             cam2.SetActive(true);
             bossScript.newLoc = collision.transform.position;
+            bossScript.timeLeft = 60f;
             collision.transform.position = newLoc;
             sRender.sprite = newSprite;
             audioS.clip = newClip;
             audioS.Play();
+            flashScript.elapsedTime = 0f;
             Destroy(this);
         }
     }

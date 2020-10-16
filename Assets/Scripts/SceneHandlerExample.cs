@@ -47,11 +47,13 @@ public class SceneHandlerExample : MonoBehaviour
         curState.text = "GameOver!";
         yield return new WaitForSecondsRealtime(2f);
         
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("TitleScreen", LoadSceneMode.Single);
     }
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Escape)){
+            PauseGame();
+        }
     }
 }
